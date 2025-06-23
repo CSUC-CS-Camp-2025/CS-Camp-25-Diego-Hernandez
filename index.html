@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+   
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .simple {
+            color:ghostwhite;
+            font-size: large;
+        }
+
+        .whiteclass{
+            color:white;
+        }
+        .borderclass{
+            border: 2px;
+            border-color: black;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+    
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="/js/main.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <title>My Webpage</title>
+     
+    <title>Diego's Webpage ig</title>
+    <p id="greeting" class="whiteclass">Hello!</p>
+  
 </head>
+
 <body>
-    <!-- Your content goes here -->
-    <h1>Hello World!</h1>
-    <div id="kitty">
-        <img src="images/kitten.jpg" alt="This is a kitten.">
-        <button id="btn">Click me</button>
+    <h1 id="h1" class="whiteclass">Welcome!</h1> 
+
+    <form action="/submit" methods="POST">
+        <label for="Text box" class="whiteclass">Your name</label>
+        <input type="text" id="Text box" name="Your name"
+    </form>
+    <button id="click">click</button>
+    <br>
+    <br>
+    <div class="grid-container">
+        <div class="item">"If you can't fly then run, 
+            <br>if you can't run then walk, 
+            <br>if you can't walk then crawl, 
+            <br>but whatever you do you have to keep moving forward, and if you can't at all... then you're probably dead" -Diego H.</div>
+        <div class="item">"Nothing lasts forever"</div>
+        <div class="item">"Can't find peace if you can't accept"</div>
     </div>
+    
+   
+    <p class="simple">I'm Diego Hernandez and this is my CSSC Webpage.</p>
+  
+
+    <p class="simple">Hello, my name is Diego Hernandez. I'm seventeen years old, I just recently graduated from high school and I plan on attending Chico State with a major in mechanical engineering. I have plans for myself that involve hard work, perserverance, and determination.</p>
+    <ul class="simple" class="borderclass">
+      Hobbies:
+        <li>Volleyball: I started playing four years ago at the start of high school. I was only able to get on the varsity team for my senior year.</li>
+        <li>Video games: I do not have a console or a pc, only my phone. I usually only play Brawl Stars, Clash of Clans(COC), and others.</li>
+        <li>Reading: I was very into reading during middle school and I'm just now getting back into it as a way to pass time. On the second day of camp, Leo and I went to a bookstore close by the campus and I got "The Silver Kiss" by Annette Curtis Klause and it's a really enjoyable read that really builds off of the main characters relationships.</li>
+        <li>Music: I like listening to music, it helps me very much when I'm going through my day and I also always thought that there's a difference between having music taste and having a taste for music.</li>
+    </ul>
+
+    <p>
+        
+    </p>
+
 </body>
 </html>

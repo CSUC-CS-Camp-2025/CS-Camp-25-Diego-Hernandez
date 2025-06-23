@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item {
+    background-color: rgb(2, 2, 2);
+    color:ghostwhite;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    border: 2px solid rgb(149, 132, 132);
+}
+
+body {
+    background-image: url('images/Sunsetbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
